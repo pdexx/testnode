@@ -1,5 +1,5 @@
 import _ from 'lodash'; //用ES6語法導入模組
-
+import './module-1.css';
 export default function(){
     var el = document.querySelector('#module-1');
     el.textContent = _.join(['Module', '1'], ' ');
