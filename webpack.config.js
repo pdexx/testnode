@@ -4,7 +4,7 @@ var webpack = require('webpack');
 module.exports = {
   context: path.resolve(__dirname, './src'),
   entry: {
-    main:  ['babel-polyfill', './main.js'],
+    main:  './main.js',
     module: './module-1.js'
   },
 
@@ -34,5 +34,5 @@ module.exports = {
       filename: 'vendor.bundle.js',
       minChunks: 2
     }),
-  ],
+  ]
 }
