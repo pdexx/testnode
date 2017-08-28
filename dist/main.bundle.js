@@ -3624,6 +3624,16 @@ window.onload = function () {
     Object(__WEBPACK_IMPORTED_MODULE_1__module_2_js__["a" /* default */])();
 };
 
+var x = void 0;
+for (var _i = 0; _i < 10; _i++) {
+    x = 'foo';
+}
+console.log(i); // error
+var y = 10; //用const會錯誤const不能++
+if (true) {
+    y++; // error
+}
+
 /***/ }),
 /* 128 */,
 /* 129 */,
